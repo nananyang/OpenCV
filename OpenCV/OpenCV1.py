@@ -91,5 +91,5 @@ def faceDetect():
     # 모든 윈도우창 종료
 
 faceDetect()
-# 함수 실행!
+# 함수 실행!!!!!!
 
