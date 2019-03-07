@@ -90,5 +90,6 @@ def faceDetect():
     cv2.destroyAllWindows()
     # 모든 윈도우창 종료
 
-faceDetect() # 함수 실행
+faceDetect()
+# 함수 실행
 
