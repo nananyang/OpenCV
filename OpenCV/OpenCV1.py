@@ -82,7 +82,7 @@ def face_detect():
     
         cv2.imshow('frame',frame) # 영상을 출력하는 소스
         
-        if cv2.waitKey(20) & 0xFF == ord('q'): break # 20ms 입력대기 및 'q' 버튼 누를때 for문 종료
+        if cv2.waitKey(20) & 0xFF == ord('q'):  break # 20ms 입력대기 및 'q' 버튼 누를때 for문 종료
         #if cv2.waitKey(1)>0: break
             
     cap.release()
