@@ -4,7 +4,7 @@ import pickle
 
 font=cv2.FONT_HERSHEY_SIMPLEX
 
-def faceDetect():
+def face_detect():
     face_cascade= cv2.CascadeClassifier('data/haarcascade_frontalface_alt2.xml')
     # 얼굴인식 회로?
     eye_cascade = cv2.CascadeClassifier('data/haarcascade_eye.xml')
@@ -90,6 +90,6 @@ def faceDetect():
     cv2.destroyAllWindows()
     # 모든 윈도우창 종료
 
-print('nananyang')
+face_detect()
 # 함수 실행!!!!!!
 
